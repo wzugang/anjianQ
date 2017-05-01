@@ -23,7 +23,7 @@ SetupOCXFile=
 [Comment]
 
 [UIPackage]
-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
+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
 
 
 [Script]
@@ -36,13 +36,15 @@ arr=Split(sRect,"|")
 w = arr(2) - arr(0)
 h = arr(3) - arr(1)
 Call Plugin.Window.Size(MainHwnd, 410, 260)
-
 count = 0
-//TracePrint GetColorFocus 
-
+TracePrint PID 
 x = 1
 y = 29
 While 1
+    If Plugin.Web.Bind("TPHelper.exe") <> 0 Then 
+        MessageBox("检测到腾讯反外挂平台，按键精灵自动关闭")
+        ExitScript
+    End If
     GetColor0 = Plugin.Bkgnd.GetPixelColor(MainHwnd, 42+x, 82+y)
     If GetColor0 = "63B55A" Then 
         Call Plugin.Bkgnd.KeyPress(MainHwnd, 107)//+
@@ -69,9 +71,8 @@ While 1
             //       Call Plugin.Bkgnd.KeyPress(MainHwnd, 82)
             //     Else 
             //            End If  
-        //点怪 subWin窗口内坐标 26 207 颜色 D5E8ED            
+            //点怪 subWin窗口内坐标 26 207 颜色 D5E8ED            
             GetColorFocus = Plugin.Bkgnd.GetPixelColor(MainHwnd,25+x,207+y)
-          
             If GetColorFocus = "D5E8ED" Then
                 Call Plugin.Bkgnd.KeyPress(MainHwnd, 70)//f
             Else
