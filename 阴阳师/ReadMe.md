@@ -1,22 +1,24 @@
-ÒõÑôÊ¦½Å±¾
+é˜´é˜³å¸ˆè„šæœ¬
 ===
-# °üº¬¹¦ÄÜ
-* Óù»ê
-* ÓùÁé
-* ¾õÐÑ
-* ¶·¼¼ËÍÈËÍ·
-* ½á½çÍ»ÆÆ
+# åŒ…å«åŠŸèƒ½
 ---
-# ±äÁ¿
-### ÎÄ¼þ£ºÓù»ê¾õÐÑ¶·¼¼
-//¿ÉÒÔÔÚÔËÐÐÊ±ÐÞ¸ÄµÄ²ÎÊý
-Int member=2//Õ½¶·ÈËÊý 2»ò3£¬·Ç3µÄÊý×Ö¾ù»áÈÏÎªÊÇ2
-Int focus = 3//ÊÇ·ñµã¹Ö,0:²»µã¹Ö 123£º·Ö±ðµã×óÖÐÓÒµÄ¹Ö
-//²»Ö§³Ö¿ìËÙ¸ü¸Ä²ÎÊý
-bool expup=true
-bool command = true//ture ¿ªÆô¿ìËÙ²ÎÊý false¹Ø±Õ¿ìËÙ²ÎÊý
-Int received = 0//Ð­×÷½ÓÊÕ 0£ºÈ«²¿¾Ü¾ø 1£ºÈ«²¿½ÓÊÜ 2£º³ýÏÂ1WÈ«²¿½ÓÊÜ 3£ºÖ»Òª¹´Ìå 4£ºÖ»Òª¹´£¨ºóÁ½ÖÖÔÝ²»Ö§³Ö£©
-Int delayTime = 500 	//¿ØÖÆ¼ì²âÆµÂÊ£¬½¨Òé´¦ÓÚ100µ½1000Ö®¼ä
-Int colorDelta = 10		//É«²î×î´ó²»³¬¹ýcolorDelta,µ±Ä³¸ö×´Ì¬ÎÞ·¨Ê¶±ðÊ±Ôö´óÊýÖµ£¬¹ý´ó»áÔì³ÉÎó²Ù×÷
-### ÎÄ¼þ£º½á½çÍ»ÆÆ
-Int gold=1
+* å¾¡é­‚
+* å¾¡çµ
+* è§‰é†’
+* æ–—æŠ€é€äººå¤´
+* ç»“ç•Œçªç ´
+
+# å˜é‡
+<br>---
+<br>### æ–‡ä»¶ï¼šå¾¡é­‚è§‰é†’æ–—æŠ€
+<br>//å¯ä»¥åœ¨è¿è¡Œæ—¶ä¿®æ”¹çš„å‚æ•°
+<br>Int member=2//æˆ˜æ–—äººæ•° 2æˆ–3ï¼Œéž3çš„æ•°å­—å‡ä¼šè®¤ä¸ºæ˜¯2
+<br>Int focus = 3//æ˜¯å¦ç‚¹æ€ª,0:ä¸ç‚¹æ€ª 123ï¼šåˆ†åˆ«ç‚¹å·¦ä¸­å³çš„æ€ª
+<br>//ä¸æ”¯æŒå¿«é€Ÿæ›´æ”¹å‚æ•°
+<br>bool expup=true
+<br>bool command = true//ture å¼€å¯å¿«é€Ÿå‚æ•° falseå…³é—­å¿«é€Ÿå‚æ•°
+<br>Int received = 0//åä½œæŽ¥æ”¶ 0ï¼šå…¨éƒ¨æ‹’ç» 1ï¼šå…¨éƒ¨æŽ¥å— 2ï¼šé™¤ä¸‹1Wå…¨éƒ¨æŽ¥å— 3ï¼šåªè¦å‹¾ä½“ 4ï¼šåªè¦å‹¾ï¼ˆåŽä¸¤ç§æš‚ä¸æ”¯æŒï¼‰
+<br>Int delayTime = 500 	//æŽ§åˆ¶æ£€æµ‹é¢‘çŽ‡ï¼Œå»ºè®®å¤„äºŽ100åˆ°1000ä¹‹é—´
+<br>Int colorDelta = 10		//è‰²å·®æœ€å¤§ä¸è¶…è¿‡colorDelta,å½“æŸä¸ªçŠ¶æ€æ— æ³•è¯†åˆ«æ—¶å¢žå¤§æ•°å€¼ï¼Œè¿‡å¤§ä¼šé€ æˆè¯¯æ“ä½œ
+<br>### æ–‡ä»¶ï¼šç»“ç•Œçªç ´
+<br>Int gold=1
