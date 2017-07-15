@@ -83,7 +83,7 @@ Else
 End If
 Sub full()
     //*
-    Call Plugin.Window.Move(Hwnd, 0, 0)
+   // Call Plugin.Window.Move(Hwnd, 0, 0)
     //*
     i=0//Õ½¶·¼ÆÊý
     While 1
