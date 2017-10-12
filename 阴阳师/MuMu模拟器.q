@@ -9,7 +9,7 @@ StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
 MacroID=9dd3f195-4d8b-46df-854c-29c488252c15
-Description=御魂觉醒斗技
+Description=MuMu模拟器
 Enable=1
 AutoRun=0
 [Repeat]
@@ -33,9 +33,9 @@ SetupOCXFile=
 /*************************************************************/
 //支持快速更改参数
 member=2			//战斗人数 2或3，非3的数字均会认为是2
-focus = 3			//是否点怪,0:不点怪 123：分别点左中右的怪
+focus = 0			//是否点怪,0:不点怪 123：分别点左中右的怪
 //不支持快速更改参数
-command = true		//ture 开启快速参数 false关闭快速参数
+command = false		// ture 开启快速参数 false 关闭快速参数
 received = 0		//协作接收 0：全部拒绝 1：全部接受 2：除下1W全部接受 3：只要勾体 4：只要勾
 delayTime = 500 	//控制检测频率，建议处于100到1000之间
 colorDelta = 10		//色差最大不超过colorDelta,当某个状态无法识别时增大数值，过大会造成误操作
@@ -90,7 +90,10 @@ Sub full()
         //暂停
         While pause
             Delay delayTime
-        Wend    
+        Wend
+        
+       
+        
         //游戏闪退检测
         If Windowsname <> Plugin.Window.GetTextEx(Hwnd, 0) Then 
             Call Plugin.Media.Beep(1976, 800)
@@ -228,6 +231,7 @@ Sub full()
         //        If BackgroundPointColor("FCFBFC", 491, 231) Then 
         //            Call Plugin.Media.Beep(1976, 800)
         //        End If
+          //          Call Plugin.Bkgnd.KeyPress(Hwnd,32)//space
     Wend 
 End Sub
 Sub OnScriptExit()
